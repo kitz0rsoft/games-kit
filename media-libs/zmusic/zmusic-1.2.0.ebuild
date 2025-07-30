@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="GZDoom's music system as a standalone library"
 HOMEPAGE="https://github.com/ZDoom/ZMusic"
-SRC_URI="https://github.com/ZDoom/ZMusic/tarball/89f3d65734470fb7ec0c1e69f73a0cfcc88ed557 -> ZMusic-1.1.14-89f3d65.tar.gz"
+SRC_URI="https://github.com/ZDoom/ZMusic/tarball/ac3e232b001129c740b7b65196ae0e1b13b82513 -> ZMusic-1.2.0-ac3e232.tar.gz"
 
 LICENSE="BSD DUMB-0.9.3 GPL-3 LGPL-2.1+ LGPL-3 MIT"
 SLOT="0"
@@ -21,7 +21,7 @@ DEPEND="
 	sndfile? ( media-libs/libsndfile )"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/ZDoom-ZMusic-89f3d65"
+S="${WORKDIR}/ZDoom-ZMusic-ac3e232"
 
 
 src_prepare() {
